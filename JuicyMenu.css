@@ -1,0 +1,53 @@
+/* My_Menu Stylesheet */
+
+header {
+    position: center ;
+
+}
+
+section.menus_area {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu_items {
+    flex-basis: 32%;
+}
+
+.title {
+    background-color: #8ceb55db;
+    padding: 10px 0;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.single_menu {
+    background-color: #e4bf67;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: .3s;
+}
+
+.single_menu span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #8ceb55db;
+    padding: 8px 20px;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 15px 0 0 0;
+}
